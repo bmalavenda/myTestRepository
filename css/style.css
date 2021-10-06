@@ -6,21 +6,32 @@ body{
 
 #container{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:firebrick;
+    color:black;
     width: 70%;
-    padding: 1em;
+    height: 90%;
     margin:auto;
     text-align: left;
     border: 2px solid #F93;
+    background-color:gainsboro;
 }
 
 #volanta{
-    background-color: lightslategrey;
-    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    background-color:#33B8FF;
+    color:gainsboro;
+    height: 45px;
+    text-align:left;
+    padding: 15px 0px 0px 15px;
+    /* box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.1); */
+    font-size: 20px;
 }
 
 h1{
-    color:indigo;
+    color: black;
     font-size: 20px;
     text-align: left;
+    bottom: unset;
+}
+
+#post{
+    padding: 0px 15px 0px 15px;
 }
